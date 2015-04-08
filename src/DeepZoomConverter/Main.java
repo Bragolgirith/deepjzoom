@@ -376,7 +376,7 @@ public class Main {
         Vector lines = new Vector();
         lines.add(xmlHeader);
         lines.add("<Image TileSize=\"" + tileSize + "\" Overlap=\"" + tileOverlap +
-                  "\" Format=\"" + tileFormat + "\" ServerFormat=\"Default\" xmnls=\"" +
+                  "\" Format=\"" + tileFormat + "\" ServerFormat=\"Default\" xmlns=\"" +
                   schemaName + "\">");
         lines.add("<Size Width=\"" + width + "\" Height=\"" + height + "\" />");
         lines.add("</Image>");
